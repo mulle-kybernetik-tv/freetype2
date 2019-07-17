@@ -154,7 +154,7 @@ set(LIBRARY_SOVERSION "6")
 option(FT_WITH_ZLIB "Use system zlib instead of internal library." OFF)
 option(FT_WITH_BZIP2 "Support bzip2 compressed fonts." OFF)
 option(FT_WITH_PNG "Support PNG compressed OpenType embedded bitmaps." OFF)
-option(FT_WITH_HARFBUZZ "Improve auto-hinting of OpenType fonts." OFF)
+option(FT_WITH_HARFBUZZ "Improve auto-hinting of OpenType fonts." ON)
 
 
 # Disallow in-source builds

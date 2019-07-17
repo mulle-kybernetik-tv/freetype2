@@ -126,7 +126,7 @@ FT_BEGIN_HEADER
    * macro is not defined, FreeType offers alternative LCD rendering
    * technology that produces excellent output without LCD filtering.
    */
-/* #define FT_CONFIG_OPTION_SUBPIXEL_RENDERING */
+#define FT_CONFIG_OPTION_SUBPIXEL_RENDERING 
 
 
   /**************************************************************************
@@ -289,8 +289,7 @@ FT_BEGIN_HEADER
    *   options set by those programs have precedence, overwriting the value
    *   here with the configured one.
    */
-/* #define FT_CONFIG_OPTION_USE_HARFBUZZ */
-
+#define FT_CONFIG_OPTION_USE_HARFBUZZ 
 
   /**************************************************************************
    *
